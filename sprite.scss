@@ -1,0 +1,68 @@
+
+$icon-size: 60px;
+.ai-icon {
+    background-image: url('../images/sprite-ico.png');
+    background-size: $icon-size;
+    display: inline-block;
+    width: $icon-size;
+    height: $icon-size;
+    line-height: $icon-size;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    &.seat-window {
+        background-position: 0 0;
+    }
+    &.seat-middle{
+        background-position: 0 -$icon-size;
+
+    }
+    &.seat-aisle{
+        background-position: 0 -$icon-size *2;
+    } 
+    &.seat-comfort{
+        background-position: 0 -$icon-size *3;
+    }
+    &.seat-comfort-first-row{
+        background-position: 0 -$icon-size *4;
+    }
+    &.seat-extra-leg{
+        background-position: 0 -$icon-size *5;
+    }
+    &.seat-n-a{
+        background-position: 0 -$icon-size *6;
+    }
+
+    &.seat-exit{
+        background-position: 0 -$icon-size *7;
+    }
+     &.bottom-exit{
+        background-position: 0 -$icon-size *8;
+    }
+     &.top-exit{
+        background-position: 0 -$icon-size *9;
+    }
+     &.window-top{
+        background-position: 0 -$icon-size *10;
+    }
+    &.window-bottom{
+        background-position: 0 -$icon-size *11;
+    }
+    &.wall-vertical{
+        background-position: 0 -$icon-size *12;
+    }
+    &.wall-top{
+        background-position: 0 -$icon-size *13;
+    }
+    &.wall-bottom{
+        background-position: 0 -$icon-size *14;
+    }
+     &.space{
+        background-position: 0 -$icon-size *15;
+    }
+}
+
+
+
+
+

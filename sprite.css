@@ -1,0 +1,59 @@
+.ai-icon {
+  background-image: url('../images/sprite-ico.png');
+  background-size: 32px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.ai-icon.seat-window {
+  background-position: 0 0;
+}
+.ai-icon.seat-middle {
+  background-position: 0 -32px;
+}
+.ai-icon.seat-aisle {
+  background-position: 0 -64px;
+}
+.ai-icon.seat-comfort {
+  background-position: 0 -96px;
+}
+.ai-icon.seat-comfort-first-row {
+  background-position: 0 -128px;
+}
+.ai-icon.seat-extra-leg {
+  background-position: 0 -160px;
+}
+.ai-icon.seat-n-a {
+  background-position: 0 -192px;
+}
+.ai-icon.seat-exit {
+  background-position: 0 -224px;
+}
+.ai-icon.bottom-exit {
+  background-position: 0 -256px;
+}
+.ai-icon.top-exit {
+  background-position: 0 -288px;
+}
+.ai-icon.window-top {
+  background-position: 0 -320px;
+}
+.ai-icon.window-bottom {
+  background-position: 0 -352px;
+}
+.ai-icon.wall-vertical {
+  background-position: 0 -384px;
+}
+.ai-icon.wall-top {
+  background-position: 0 -416px;
+}
+.ai-icon.wall-bottom {
+  background-position: 0 -448px;
+}
+.ai-icon.space {
+  background-position: 0 -480px;
+}
